@@ -14,6 +14,7 @@
 		CADC71002857ABC600342DBC /* SwiftUiBindingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC70FF2857ABC600342DBC /* SwiftUiBindingTestTests.swift */; };
 		CADC710A2857ABC600342DBC /* SwiftUiBindingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC71092857ABC600342DBC /* SwiftUiBindingTestUITests.swift */; };
 		CADC710C2857ABC600342DBC /* SwiftUiBindingTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC710B2857ABC600342DBC /* SwiftUiBindingTestUITestsLaunchTests.swift */; };
+		CADC711A2857ABFC00342DBC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC71192857ABFC00342DBC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CADC71052857ABC600342DBC /* SwiftUiBindingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiBindingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADC71092857ABC600342DBC /* SwiftUiBindingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiBindingTestUITests.swift; sourceTree = "<group>"; };
 		CADC710B2857ABC600342DBC /* SwiftUiBindingTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiBindingTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CADC71192857ABFC00342DBC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CADC70F02857ABC500342DBC /* ContentView.swift */,
 				CADC70F22857ABC600342DBC /* Assets.xcassets */,
 				CADC70F42857ABC600342DBC /* Preview Content */,
+				CADC71192857ABFC00342DBC /* Model.swift */,
 			);
 			path = SwiftUiBindingTest;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADC711A2857ABFC00342DBC /* Model.swift in Sources */,
 				CADC70F12857ABC500342DBC /* ContentView.swift in Sources */,
 				CADC70EF2857ABC500342DBC /* SwiftUiBindingTestApp.swift in Sources */,
 			);
